@@ -1,0 +1,20 @@
+# Diccionario de Arquitectura Técnica - Proyecto Telecom X
+bibliotecas_proyecto = {
+    "nbformat": "Generador de Notebooks: Estructura el archivo .ipynb (celdas, metadatos y orden lógico).",
+    "pandas": "Motor de ETL: Limpieza de nulos, tratamiento de tipos de datos y manipulación de DataFrames.",
+    "numpy": "Computación Científica: Manejo de valores NaN y operaciones vectorizadas de alto rendimiento.",
+    "seaborn": "Visualización de Datos (EDA): Creación de gráficos estadísticos con estética profesional.",
+    "matplotlib": "Librería Base de Gráficos: Infraestructura de visualización donde se montan los insights.",
+    "google.colab": "Gestión de Entorno: Permite la descarga automatizada del producto final al PC local."
+}
+
+print("=====================================================================")
+print("  ARQUITECTURA DE SOFTWARE: PIPELINE DE CIENCIA DE DATOS - TELECOM X")
+print("=====================================================================\n")
+
+for lib, descripcion in bibliotecas_proyecto.items():
+    print(f"🔹 BIBLIOTECA: {lib.ljust(15)} | FUNCIÓN: {descripcion}")
+
+print("\n---------------------------------------------------------------------")
+print("✅ OBJETIVO: Garantizar la integridad del dato y la claridad del insight.")
+print("=====================================================================")
